@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Zhaoying Meng's Portfolio." />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>ZHAOYING MENG | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>ZHAOYING MENG</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/wfh_1.svg"
+        alt="zhaoying-meng"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Collaborative & detail-oriented data scientist and former math teacher
+          with a BA in computer science. Passionate about diving into data to
+          spot anomalies, identifying automation opportunities, applying
+          disciplined approaches to ensure high confidence in results.
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>Education</h2>
+      <p>
+        FRANKLIN UNIVERSITY | Masters in Computer Science | Columbus, OHIO |
+        12/2019 - 04/2022 (expected)
+      </p>
+      <p>
+        COLUMBUS STATE COMMUNITY COLLEGE | Courses in … | Columbus, OH | 06/2019
+        - 11/2019
+      </p>
+      <p>
+        HOUSTON COMMUNITY COLLEGE | Courses in Computer Science | Houston, TX |
+        12/2016 - 04/2019
+      </p>
+      <p>
+        CAPITAL NORMAL UNIVERSITY | B.A: Science & Tech of Artificial
+        Intelligence | Beijing, China | 06/2007 - 04/2011
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-python-480.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/tableau.jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/sas.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/sql.jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of My Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/dolphin.jpg"
+            alt="Dolphin Longevity Prediction (SAS)"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Dolphin Longevity Prediction</h3>
+          <p class="project-details">
+            Modeled impact of social activity, IQ, & intimacy on dolphin life
+            expectancy in SAS using scatter plots, linear, quadratic & cubic
+            regression models, multilinear regression models, & final
+            multivariate models predicted life expectancy based on social
+            activity.
+          </p>
+          <a href="#" target="_blank" class="project-link">Learn More</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/money.jpg"
+            alt="Loan Defaults Classification (Python)"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Loan Defaults Classification</h3>
+          <p class="project-details">
+            Cleaned & analyzed 30K rows of credit data in Python to identify
+            variables that correlated with loan defaults. Ran Logistic
+            regression, KNN classifier, Decision Tree, Random Forest models and
+            evaluated models for accuracy, precision, F1 & recall.
+          </p>
+          <a href="#" target="_blank" class="project-link">Learn More</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/stem.jpg"
+            alt="STEM Salary Data Exploration (Tableau)"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">STEM Salary Data Exploration</h3>
+          <p class="project-details">
+            Created dashboards in Tableau to summarize 62K rows of STEM salary
+            and demographic data. Used bar charts, Histograms, Pie Charts, Heat
+            Maps to find that years of experience, location, and company better
+            predict salary than gender, race, or education level.
+          </p>
+          <a href="#" target="_blank" class="project-link">Learn More</a>
+        </div>
+      </div>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/dolphin.jpg"
+            alt="Dolphin Longevity Prediction (SAS)"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Dolphin Longevity Prediction</h3>
+          <p class="project-details">
+            Modeled impact of social activity, IQ, & intimacy on dolphin life
+            expectancy in SAS using scatter plots, linear, quadratic & cubic
+            regression models, multilinear regression models, & final
+            multivariate models predicted life expectancy based on social
+            activity.
+          </p>
+          <a href="#" target="_blank" class="project-link">Learn More</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/money.jpg"
+            alt="Loan Defaults Classification (Python)"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Loan Defaults Classification</h3>
+          <p class="project-details">
+            Cleaned & analyzed 30K rows of credit data in Python to identify
+            variables that correlated with loan defaults. Ran Logistic
+            regression, KNN classifier, Decision Tree, Random Forest models and
+            evaluated models for accuracy, precision, F1 & recall.
+          </p>
+          <a href="#" target="_blank" class="project-link">Learn More</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/stem.jpg"
+            alt="STEM Salary Data Exploration (Tableau)"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">STEM Salary Data Exploration</h3>
+          <p class="project-details">
+            Created dashboards in Tableau to summarize 62K rows of STEM salary
+            and demographic data. Used bar charts, Histograms, Pie Charts, Heat
+            Maps to find that years of experience, location, and company better
+            predict salary than gender, race, or education level.
+          </p>
+          <a href="#" target="_blank" class="project-link">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mrgjpvwa" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a
+        href="https://www.linkedin.com/in/zhaoying-ellen-meng-460192207/"
+        target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2022</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://twitter.com/EllenMeng1" target="_blank"
+          >Zhaoying Meng (Ellen)</a
+        >
+      </p>
+    </footer>
+
+    <!-- Top Button -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
