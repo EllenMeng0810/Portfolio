@@ -121,20 +121,33 @@ nav ul li {
   padding: 0.3rem 0;
 }
 
-.more-about {
+.education {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
+  margin: auto;
+  text-align: center;
 }
 
-.more-about h2 {
+.education h2 {
   margin-bottom: var(--bottom-margin);
   text-align: center;
 }
 
-.more-about p {
+.education p {
   line-height: var(--line-height);
   padding: 0.4rem;
   text-align: center;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+
+.icon-card {
+  border-radius: 11px;
+  padding: 20px;
+  margin: 10px;
 }
 
 .skills {
@@ -148,21 +161,49 @@ nav ul li {
   margin-bottom: 2rem;
 }
 
-.skills-wrapper img {
-  padding: 1.25rem;
+.skill-header2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
 }
 
-.icon {
-  width: 11.875rem;
-  height: 11.25rem;
+.button {
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
-.icon-card {
-  background-color: #fff;
-  border-radius: 11px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
-  padding: 20px;
-  margin: 10px;
+.button1 {
+  background-color: cornflowerblue;
+  color: white;
+  border: 3px solid cornflowerblue;
+  border-radius: 8px;
+}
+
+.button1:hover {
+  background-color: #ff7f7f;
+  color: white;
+  border: 3px solid #ff7f7f;
+}
+
+.button2 {
+  background-color: white;
+  color: cornflowerblue;
+  border: 3px solid cornflowerblue;
+  border-radius: 8px;
+}
+
+.button2:hover {
+  background-color: #90ee90;
+  color: white;
+  border: 3px solid #90ee90;
 }
 
 .projects {
@@ -362,16 +403,16 @@ footer {
     width: 20.5rem;
   }
 
-  .more-about {
+  .education {
     margin-top: 2rem;
     padding: 1rem 3.5rem;
   }
 
-  .more-about h2 {
+  .education h2 {
     text-align: center;
   }
 
-  .more-about p {
+  .education p {
     text-align: justify;
   }
 
