@@ -102,7 +102,7 @@ nav ul li {
 
 .hero img {
   height: 37.5rem;
-  width: 37.5rem;
+  width: 47.5rem;
 }
 
 .bio {
@@ -148,6 +148,11 @@ nav ul li {
   border-radius: 11px;
   padding: 20px;
   margin: 10px;
+  transition: all 0.15s;
+}
+
+.icon-card:hover {
+  transform: scale(1.15);
 }
 
 .skills {
