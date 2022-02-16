@@ -102,7 +102,7 @@ nav ul li {
 
 .hero img {
   height: 32.5rem;
-  width: 41.5rem;
+  width: 42.5rem;
 }
 
 .bio {
@@ -400,7 +400,7 @@ footer {
 
   .hero img {
     height: 25.5rem;
-    width: 30rem;
+    width: 32.5rem;
   }
 
   .bio {
@@ -442,7 +442,7 @@ footer {
 @media screen and (max-width: 420px) {
   .hero img {
     height: 20rem;
-    width: 23rem;
+    width: 26rem;
   }
 
   .bio {
